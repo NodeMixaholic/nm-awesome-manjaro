@@ -14,7 +14,6 @@ pacman -S awesome picom nitrogen ulauncher i3lock
 ```
 ## Instructions
 1. Install dependencies
-2. make a new folder in ~/.config/ called "awesome" (no quotes)
-3. Copy rc.lua to ~/.config/awesome
+2. copy the folder "awesome" (no quotes) to ~/.config/
 4. Set background using nitrogen
 5. Save your work, log out, and log into "Awesome" instead of "XFCE"
