@@ -85,9 +85,11 @@ awful.layout.layouts = {
 myawesomemenu = {
    { "hotkeys", function() hotkeys_popup.show_help(nil, awful.screen.focused()) end },
    { "manual", terminal .. " -e man awesome" },
+   { "add/remove software", function() awful.spawn.with_shell("gksu pamac-manager") end },
    { "edit config", editor_cmd .. " " .. awesome.conffile },
    { "restart", awesome.restart },
    { "quit", function() awesome.quit() end },
+   { "lock", function() awful.spawn.with_shell("i3lock") end },
 }
 
 mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
