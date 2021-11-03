@@ -1,4 +1,4 @@
-# sparksammy-awesome-manjaro
+# nm-awesome-manjaro
 My Awesome WM setup
 
 ## Dependencies
