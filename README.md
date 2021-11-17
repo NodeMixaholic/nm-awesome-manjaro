@@ -4,7 +4,7 @@ My Awesome WM setup
 ## Dependencies
 
 ```
-pacman -S awesome picom nitrogen ulauncher i3lock lxappearance
+pacman -S awesome picom nitrogen i3lock lxappearance && yay -S ulauncher
 ```
 (You also need to make sure you have the command xfce4-terminal!)
 
