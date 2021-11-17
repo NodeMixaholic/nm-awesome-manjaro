@@ -49,7 +49,7 @@ beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "xfce4-terminal"
-editor = os.getenv("EDITOR") or "mousepad" or "gedit" or "nano"
+editor = os.getenv("EDITOR") or "mousepad" or "gedit" or "kate" or "nano"
 editor_cmd = terminal .. " -e " .. editor
 
 -- Default modkey.
