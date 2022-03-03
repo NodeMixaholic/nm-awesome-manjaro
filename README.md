@@ -6,6 +6,11 @@ My Awesome WM setup
 ```
 sudo pacman -S awesome picom nitrogen i3lock lxappearance xfce4-terminal && pamac install ulauncher
 ```
+In Zorin 16:
+```
+sudo add-apt-repository ppa:agornostal/ulauncher
+sudo apt install awesome nitrogen i3lock lxappearance xfce4-terminal ulauncher
+```
 (You also need to make sure you have the command xfce4-terminal!)
 
 ## Default Background Location (on most systems)
